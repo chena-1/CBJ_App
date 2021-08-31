@@ -13,14 +13,16 @@ const VendorsAndServices$json = const {
   '1': 'VendorsAndServices',
   '2': const [
     const {'1': 'vendorsAndServicesNotSupported', '2': 0},
-    const {'1': 'tasmota', '2': 1},
-    const {'1': 'espHome', '2': 2},
-    const {'1': 'yeelight', '2': 3},
+    const {'1': 'espHome', '2': 1},
+    const {'1': 'switcher', '2': 2},
+    const {'1': 'tasmota', '2': 3},
+    const {'1': 'yeelight', '2': 4},
+    const {'1': 'google', '2': 5},
   ],
 };
 
 /// Descriptor for `VendorsAndServices`. Decode as a `google.protobuf.EnumDescriptorProto`.
-final $typed_data.Uint8List vendorsAndServicesDescriptor = $convert.base64Decode('ChJWZW5kb3JzQW5kU2VydmljZXMSIgoedmVuZG9yc0FuZFNlcnZpY2VzTm90U3VwcG9ydGVkEAASCwoHdGFzbW90YRABEgsKB2VzcEhvbWUQAhIMCgh5ZWVsaWdodBAD');
+final $typed_data.Uint8List vendorsAndServicesDescriptor = $convert.base64Decode('ChJWZW5kb3JzQW5kU2VydmljZXMSIgoedmVuZG9yc0FuZFNlcnZpY2VzTm90U3VwcG9ydGVkEAASCwoHZXNwSG9tZRABEgwKCHN3aXRjaGVyEAISCwoHdGFzbW90YRADEgwKCHllZWxpZ2h0EAQSCgoGZ29vZ2xlEAU=');
 @$core.Deprecated('Use deviceTypesDescriptor instead')
 const DeviceTypes$json = const {
   '1': 'DeviceTypes',
@@ -41,11 +43,12 @@ const DeviceTypes$json = const {
     const {'1': 'rgbLights', '2': 14},
     const {'1': 'rgbwLights', '2': 15},
     const {'1': 'rgbcctLights', '2': 16},
+    const {'1': 'smartTV', '2': 17},
   ],
 };
 
 /// Descriptor for `DeviceTypes`. Decode as a `google.protobuf.EnumDescriptorProto`.
-final $typed_data.Uint8List deviceTypesDescriptor = $convert.base64Decode('CgtEZXZpY2VUeXBlcxIUChB0eXBlTm90U3VwcG9ydGVkEAASCQoFbGlnaHQQARIKCgZibGluZHMQAhIKCgZib2lsZXIQAxIKCgZidXR0b24QBBITCg9idXR0b25XaXRoTGlnaHQQBRIHCgNodWIQBxIMCghwaG9uZUFwcBAIEg8KC2NvbXB1dGVyQXBwEAkSDgoKYnJvd3NlckFwcBAKEgoKBnN3aXRjaBALEhEKDWRpbW1hYmxlTGlnaHQQDBIMCghjY3RMaWdodBANEg0KCXJnYkxpZ2h0cxAOEg4KCnJnYndMaWdodHMQDxIQCgxyZ2JjY3RMaWdodHMQEA==');
+final $typed_data.Uint8List deviceTypesDescriptor = $convert.base64Decode('CgtEZXZpY2VUeXBlcxIUChB0eXBlTm90U3VwcG9ydGVkEAASCQoFbGlnaHQQARIKCgZibGluZHMQAhIKCgZib2lsZXIQAxIKCgZidXR0b24QBBITCg9idXR0b25XaXRoTGlnaHQQBRIHCgNodWIQBxIMCghwaG9uZUFwcBAIEg8KC2NvbXB1dGVyQXBwEAkSDgoKYnJvd3NlckFwcBAKEgoKBnN3aXRjaBALEhEKDWRpbW1hYmxlTGlnaHQQDBIMCghjY3RMaWdodBANEg0KCXJnYkxpZ2h0cxAOEg4KCnJnYndMaWdodHMQDxIQCgxyZ2JjY3RMaWdodHMQEBILCgdzbWFydFRWEBE=');
 @$core.Deprecated('Use deviceActionsDescriptor instead')
 const DeviceActions$json = const {
   '1': 'DeviceActions',
